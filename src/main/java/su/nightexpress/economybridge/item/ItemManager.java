@@ -37,6 +37,7 @@ public class ItemManager extends AbstractManager<BridgePlugin> {
         this.register(ItemPlugins.MMOITEMS, MMOItemsHandler::new);
         this.register(ItemPlugins.NEXO, NexoHandler::new);
         this.register(ItemPlugins.ORAXEN, OraxenHandler::new);
+        this.register(ItemPlugins.ITEM_EDIT, ItemEditHandler::new);
     }
 
     @Override
